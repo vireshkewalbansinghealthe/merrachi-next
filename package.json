@@ -10,9 +10,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "start": "serve dist -l 80",
     "lint": "eslint"
   },
   "dependencies": {
+    "serve": "^14.2.4",
     "@google/genai": "^1.35.0",
     "framer-motion": "^12.26.1",
     "lucide-react": "^0.562.0",
